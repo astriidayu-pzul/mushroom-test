@@ -2,13 +2,17 @@ import streamlit as st
 from prophet import Prophet
 import plotly.graph_objects as go
 import pandas as pd
+from streamlit_card import card
 
 # Assume mushroom_df already loaded
 # Ensure timestamp is datetime
 mushroom_df = pd.read_csv("mushroom_dataset.csv")
 mushroom_df["timestamp"] = pd.to_datetime(mushroom_df["timestamp"])
 
+st.sidebar.info("Visualize and forecast mushroom IoT sensor data using Plotly and Prophet.")    
+
 st.subheader("🔮 Temperature Forecast with Prophet")
+
 
 # Sidebar calendar picker
 col1, col2 = st.columns(2)
