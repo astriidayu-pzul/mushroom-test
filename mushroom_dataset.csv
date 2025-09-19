@@ -98,4 +98,5 @@ timestamp,temperature_C,co2_ppm,humidity_percent,voltage_V,image_file
 2025-01-05 0:00:00,23.23,1534.12,86.95,4.72,mushroom_image_96.jpg
 2025-01-05 1:00:00,22.28,1825.09,67.55,3.86,mushroom_image_97.jpg
 2025-01-05 2:00:00,18.25,1808.05,81.8,4.5,mushroom_image_98.jpg
+
 2025-01-05 3:00:00,19.08,1625.79,62.99,4.51,mushroom_image_99.jpg
